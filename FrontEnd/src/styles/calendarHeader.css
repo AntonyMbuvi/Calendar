@@ -1,0 +1,53 @@
+/* calhead-header styles */
+.calhead-header {
+    padding: 0.5rem 1rem; /* Equivalent to px-4 py-2 */
+    display: flex;
+    align-items: center; /* Equivalent to items-center */
+}
+  
+/* calhead-img styles */
+.calhead-img {
+    margin-right: 0.5rem; /* Equivalent to mr-2 */
+    width: 3rem; /* Equivalent to w-12 */
+    height: 3rem
+}
+/* calhead-h1 styles */
+.calhead-h1 {
+    margin-right: 2.5rem; /* Equivalent to mr-10 */
+    font-size: 1.5rem; /* Equivalent to text-xl */
+    color: #718096; /* Equivalent to text-gray-500 */
+    font-weight: bold; /* Equivalent to font-bold */
+}
+  
+  /* calhead-today styles */
+.calhead-today {
+    border: 1px solid #e2e8f0; /* Equivalent to border */
+    border-radius: 0.375rem; /* Equivalent to rounded */
+    padding: 0.5rem 1rem; /* Equivalent to py-2 px-4 */
+    margin-right: 1.25rem; /* Equivalent to mr-5 */
+}
+
+/* CSS for buttons */
+.chevron-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+  
+/* Updated styles for chevron icons */
+.material-icons-outlined.chevron {
+    font-family: 'Material Icons'; /* Assuming you have the Material Icons font available */
+    cursor: pointer;
+    color: #718096; /* Equivalent to text-gray-600 */
+    margin-left: 0.5rem; /* Equivalent to mx-2 */
+    font-size: 1.5rem; /* Increase the size of the icons */
+}
+  
+/* calhead-h2 styles */
+.calhead-h2 {
+    margin-left: 1rem; /* Equivalent to ml-4 */
+    font-size: 1.25rem; /* Equivalent to text-xl */
+    color: #718096; /* Equivalent to text-gray-500 */
+    font-weight: bold; /* Equivalent to font-bold */
+}  

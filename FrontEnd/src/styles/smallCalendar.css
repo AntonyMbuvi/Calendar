@@ -1,0 +1,78 @@
+/* mainSmall-div styles */
+.mainSmall-div {
+    margin-top: 2.25rem; /* Equivalent to mt-9 */
+}  
+  
+/* small-header styles */
+.small-header {
+    display: flex;
+    justify-content: space-between; /* Equivalent to flex justify-between */
+    align-items: center;
+    padding: 0.5rem;
+    padding-left: 0.7rem;
+}
+  
+/* smallHeader-p styles */
+.smallHeader-p {
+    color: #718096; /* Equivalent to text-gray-500 */
+    font-weight: bold; /* Equivalent to font-bold */
+}
+  
+  /* chevron styles */
+.material-icons-outlined.chevron {
+    font-family: 'Material Icons'; /* Assuming you have the Material Icons font available */
+    cursor: pointer;
+    color: #718096; /* Equivalent to text-gray-600 */
+    margin-left: 0.5rem; /* Equivalent to mx-2 */
+}
+.chevron-btn {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+/* div-smallCalendar styles */
+.div-smallCalendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* Equivalent to grid-cols-7 */
+    grid-template-rows: repeat(6, 1fr); /* Equivalent to grid-rows-6 */
+}
+  
+/* span-dayNames styles */
+.span-dayNames {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    padding-top: 0.25rem; /* Equivalent to py-1 */
+    text-align: center; /* Equivalent to text-center */
+    padding: 0.35rem;
+    font-style: italic;
+    font-weight: bold;
+}
+  
+/* smallCalendar-btn styles */
+.smallCalendar-btn {
+    padding-top: 0.25rem; /* Equivalent to py-1 */
+    width: 100%; /* Equivalent to w-full */
+    background: none;
+    border: none;
+    padding: 0.35rem;
+}  
+/* span-smText styles */
+.span-smText {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+} 
+/* nowCurDay styles */
+.nowCurDay {
+    background-color: #3b82f6; /* Equivalent to bg-blue-500 */
+    border-radius: 0.375rem; /* Equivalent to rounded */
+    color: #ffffff; /* Equivalent to text-white */
+}
+  
+/* currSlcDay styles */
+.currSlcDay {
+    background-color: #ebf4ff; /* Equivalent to bg-blue-100 */
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    color: #3b82f6; /* Equivalent to text-blue-600 */
+    font-weight: bold; /* Equivalent to font-bold */
+}
+  

@@ -1,0 +1,29 @@
+/* createEvent-button styles */
+.createEvent-button {
+    border: 1px solid #e2e8f0; /* Equivalent to border */
+    padding: 0.4rem; /* Equivalent to p-2 */
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    display: flex;
+    align-items: center; /* Equivalent to items-center */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24); /* Equivalent to shadow-md */
+    transition: box-shadow 0.3s; /* Transition for hover effect */
+    background-color: white;
+}
+  
+  .createEvent-button:hover {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); 
+    /* Equivalent to hover:shadow-2xl */
+  }
+  
+/* createEvent-img styles */
+.createEvent-img {
+    width: 1.75rem; /* Equivalent to w-7 */
+    height: 1.75rem; /* Equivalent to h-7 */
+}
+  
+/* createEvent-span styles */
+.createEvent-span {
+    padding-left: 0.75rem; /* Equivalent to pl-3 */
+    padding-right: 1.75rem; /* Equivalent to pr-7 */
+}
+  

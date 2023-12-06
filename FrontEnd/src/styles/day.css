@@ -1,0 +1,55 @@
+/* day-div styles */
+.day-div {
+    border: 1px solid #e2e8f0; /* Equivalent to border border-gray-200 */
+    display: flex;
+    flex-direction: column; /* Equivalent to flex flex-col */
+}
+  
+  /* day-header styles */
+.day-header {
+    display: flex;
+    flex-direction: column; /* Equivalent to flex flex-col */
+    align-items: center; /* Equivalent to items-center */
+}
+  
+  /* day-p1 styles */
+.day-p1 {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    margin-top: 0.25rem; /* Equivalent to mt-1 */
+}
+  
+  /* day-p2 styles */
+.day-p2 {
+    font-size: 0.875rem; /* Equivalent to text-sm */
+    padding: 0.5rem; /* Equivalent to p-1 */
+    margin: 0.5rem 0; /* Equivalent to my-1 */
+    text-align: center; /* Equivalent to text-center */
+}
+
+/* highlighted styles */
+.highlighted {
+    background-color: #3b82f6; /* Equivalent to bg-blue-600 */
+    color: #ffffff; /* Equivalent to text-white */
+    border-radius: 9999px; /* Equivalent to rounded-full */
+    width: 0.5rem; /* Equivalent to w-7 */
+    height: 0.5rem; /* Assuming you want a circular shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dayDiv-event {
+  flex: 1;
+  cursor: pointer;
+}
+ 
+.dayTask {
+  padding: 0.25rem; /* Equivalent to p-1 */
+  margin-right: 0.75rem; /* Equivalent to mr-3 */
+  color: white; /* Equivalent to text-gray-600 */
+  font-size: 0.875rem; /* Equivalent to text-sm */
+  border-radius: 0.25rem; /* Equivalent to rounded */
+  margin-bottom: 0.25rem; /* Equivalent to mb-1 */
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden; /* Hides any overflowing content */
+  text-overflow: ellipsis; /* Displays an ellipsis (...) to indicate truncated text */
+}

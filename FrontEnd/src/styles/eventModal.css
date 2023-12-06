@@ -1,0 +1,110 @@
+/* mainEvent-div styles */
+.mainEvent-div {
+    height: 50vh; /* Equivalent to h-screen */
+    width: 50%; /* Equivalent to w-full */
+    position: fixed;
+    left: 30%;
+    top: 25%;
+    display: flex;
+    justify-content: center; /* Equivalent to flex justify-center */
+    align-items: center; /* Equivalent to flex items-center */
+}
+  
+/* event-form styles */
+.event-form {
+    background-color: #ffffff; /* Equivalent to bg-white */
+    border-radius: 0.875rem; /* Equivalent to rounded-lg */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06); /* Equivalent to shadow-2xl */
+}
+  
+/* event-header styles */
+.event-header {
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+    padding: 0.5rem; /* Equivalent to px-4 py-2 */
+    display: flex;
+    justify-content: space-between; /* Equivalent to flex justify-between */
+    align-items: center; /* Equivalent to flex items-center */
+}
+
+.material-icons-outlined.icon {
+    color: #62676d; /* Equivalent to text-gray-400 */
+    font-family: 'Material Icons'; /* Assuming you have the Material Icons font available */
+} 
+  
+.eventDiv-container {
+    padding: 1.5rem;
+}
+
+.event-gridDiv {
+    display: grid;
+    gap: 0.7rem;
+    align-items: end;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.gridsDiv {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20%;
+}
+.eventInput {
+    padding-top: 0.75rem;
+    border: 0;
+    display: block;
+    color: #606c71;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 0.25rem;
+    width: 100%;
+    border-bottom: 2px solid #cbd2d9;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.eventDescription{
+    font-size: 0.8rem;
+}
+.eventInput:focus {
+    border-color: #1e90ff; /* Change to your preferred focus color */
+}
+
+.colorDiv {
+    display: flex;
+    gap: 0.5rem; /* Adjust the gap value as needed */
+}
+
+.colorSpan {
+    width: 1.5rem; /* Adjust the width as needed */
+    height: 1.5rem; /* Adjust the height as needed */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: brown;
+}
+
+/* Footer.css */
+
+.footer-container {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #e5e7eb; /* Adjust the border color as needed */
+    padding: 1rem;
+    margin-top: 1.25rem; /* Adjust the margin as needed */
+}
+
+.btnFooter {
+    background-color: #1e40af; /* Adjust the background color as needed */
+    color: #ffffff; /* Adjust the text color as needed */
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btnFooter:hover {
+    background-color: #1c2d7c; /* Adjust the hover background color as needed */
+}
+  

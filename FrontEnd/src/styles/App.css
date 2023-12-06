@@ -1,0 +1,22 @@
+/* App screen styles */
+body {
+  margin: 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.app-screen {
+  height: 100vh; /* Equivalent to h-screen */
+  display: flex;
+  flex-direction: column; /* Equivalent to flex-columns */
+}
+/* app-screen styles */
+
+
+
+/* App content styles */
+.app-content {
+  flex: 1; /* Equivalent to flex-1 */
+  display: flex;
+}
