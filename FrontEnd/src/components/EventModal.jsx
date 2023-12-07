@@ -53,6 +53,7 @@ export default function EventModal() {
                                 onClick={() => {
                                     dispatchCalEvent({type: 'delete', payload: selectedEvent})
                                     setShowEventModal(false)
+                                    setSelectedEvent(null)
                                 }}>
                             delete
                         </span>
